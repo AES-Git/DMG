@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GadgetsOnline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ebdfda023cf21c2cf0aae974f4b6c7d7bdc6bcb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9e270bdbdceb7cb9b75abfb718c6ec658a00d7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GadgetsOnline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GadgetsOnline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

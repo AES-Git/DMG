@@ -61,6 +61,23 @@
           "buildTransitive/net6.0/EntityFramework.targets": {}
         }
       },
+      "EntityFramework6.Npgsql/6.4.3": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.4.0",
+          "Npgsql": "4.1.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/EntityFramework6.Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/EntityFramework6.Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Hosting.Abstractions/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -346,6 +363,22 @@
           }
         }
       },
+      "Npgsql/5.0.18": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "compile": {
+          "lib/net5.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -484,6 +517,19 @@
           "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -736,6 +782,32 @@
         "tools/net6.0/any/ef6.dll",
         "tools/net6.0/any/ef6.pdb",
         "tools/net6.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "EntityFramework6.Npgsql/6.4.3": {
+      "sha512": "iZnc+FlaBaK97zGHR0KS0bnwKQ2gWPpaOoSYNHfjLZ4lr4UEPRFQnh/bpW9Q50ZbNNbDRCs+W12QyVn+sKsSwA==",
+      "type": "package",
+      "path": "entityframework6.npgsql/6.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net45/App.config.install.xdt",
+        "content/net45/App.config.transform",
+        "content/net45/Web.config.install.xdt",
+        "content/net45/Web.config.transform",
+        "content/net461/App.config.install.xdt",
+        "content/net461/App.config.transform",
+        "content/net461/Web.config.install.xdt",
+        "content/net461/Web.config.transform",
+        "entityframework6.npgsql.6.4.3.nupkg.sha512",
+        "entityframework6.npgsql.nuspec",
+        "lib/net45/EntityFramework6.Npgsql.dll",
+        "lib/net45/EntityFramework6.Npgsql.xml",
+        "lib/net461/EntityFramework6.Npgsql.dll",
+        "lib/net461/EntityFramework6.Npgsql.xml",
+        "lib/netstandard2.1/EntityFramework6.Npgsql.dll",
+        "lib/netstandard2.1/EntityFramework6.Npgsql.xml",
+        "postgresql.png"
       ]
     },
     "Microsoft.AspNetCore.Hosting.Abstractions/2.3.0": {
@@ -1316,6 +1388,26 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Npgsql/5.0.18": {
+      "sha512": "1u4iCPKL9wtPeSUzChIbgq/BlOhvf44o7xASacdpMY7z0PbqACKpNOF0fjEn9jDV/AJl/HtPY6zk5qasQ1URhw==",
+      "type": "package",
+      "path": "npgsql/5.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.5.0.18.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -1642,6 +1734,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "sha512": "HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.AccessControl/6.0.0": {
       "sha512": "AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
       "type": "package",
@@ -1852,36 +1969,32 @@
     "net8.0": [
       "AWSSDK.SecretsManager >= 4.0.3.1",
       "EntityFramework >= 6.5.1",
+      "EntityFramework6.Npgsql >= 6.4.3",
       "Microsoft.AspNetCore.Hosting.Abstractions >= 2.3.0",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
+      "Npgsql >= 5.0.18"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MAM319\\DMG\\GadgetsOnline\\GadgetsOnline.csproj",
+      "projectUniqueName": "/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/GadgetsOnline.csproj",
       "projectName": "GadgetsOnline",
-      "projectPath": "C:\\MAM319\\DMG\\GadgetsOnline\\GadgetsOnline.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\MAM319\\DMG\\GadgetsOnline\\obj\\",
+      "projectPath": "/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/GadgetsOnline.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/mde-local-nuget-source": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1900,7 +2013,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1914,6 +2027,10 @@
             "target": "Package",
             "version": "[6.5.1, )"
           },
+          "EntityFramework6.Npgsql": {
+            "target": "Package",
+            "version": "[6.4.3, )"
+          },
           "Microsoft.AspNetCore.Hosting.Abstractions": {
             "target": "Package",
             "version": "[2.3.0, )"
@@ -1921,6 +2038,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.17.0, )"
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[5.0.18, )"
           }
         },
         "imports": [
@@ -1942,7 +2063,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

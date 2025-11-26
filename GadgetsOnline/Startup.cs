@@ -1,4 +1,4 @@
-
+﻿
 using Amazon;
 using Amazon.SecretsManager;
 using Amazon.SecretsManager.Model;
@@ -107,9 +107,9 @@ namespace GadgetsOnline
                     var password = secretsService.GetFieldFromSecret(secretJson, "password");
                     var host = secretsService.GetFieldFromSecret(secretJson, "host");
                     var port = secretsService.GetFieldFromSecret(secretJson, "port");
-                    var dbname = "postgres";
+                    var dbname = "dmg";
 
-                    return $"Host={host};Port={port};Database={dbname};Username={username};Password={password};SSL Mode=Require;Trust Server Certificate=true";
+                    return $"Host={host};Port={port};Database={dbname};Username={username};Password={password};SslMode=Require;Trust Server Certificate=true";
                 }
             }
             catch (Exception)

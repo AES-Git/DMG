@@ -11,65 +11,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GadgetsOnline
 build_property.RootNamespace = GadgetsOnline
-build_property.ProjectDir = C:\development\dotnet-modernization-gadgetsonline-core-ef6\GadgetsOnline\
+build_property.ProjectDir = /QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\development\dotnet-modernization-gadgetsonline-core-ef6\GadgetsOnline
+build_property.MSBuildProjectDirectory = /QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Checkout/AddressAndPayment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQWRkcmVzc0FuZFBheW1lbnQuY3NodG1s
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Checkout/AddressAndPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvQWRkcmVzc0FuZFBheW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Checkout/Complete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ29tcGxldGUuY3NodG1s
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Checkout/Complete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvQ29tcGxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Home/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Shared/Components/CategoryMenu/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51XERlZmF1bHQuY3NodG1s
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Shared/Components/CategoryMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2F0ZWdvcnlNZW51L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/ShoppingCart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcHBpbmdDYXJ0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Store/Browse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcQnJvd3NlLmNzaHRtbA==
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Store/Browse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvcmUvQnJvd3NlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Store/CategoryMenu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcQ2F0ZWdvcnlNZW51LmNzaHRtbA==
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Store/CategoryMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvcmUvQ2F0ZWdvcnlNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/Store/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcRGV0YWlscy5jc2h0bWw=
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/Store/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvcmUvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/development/dotnet-modernization-gadgetsonline-core-ef6/GadgetsOnline/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/QNet/site-packages/atx_dot_net_strands_cli/all_local_test_output/artifact-GadgetsOnline/artifact/sourceCode/GadgetsOnline/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
