@@ -8,12 +8,32 @@
     ".NETCoreApp,Version=v8.0": {
       "GadgetsOnline/1.0.0": {
         "dependencies": {
+          "AWSSDK.SecretsManager": "4.0.3.1",
           "EntityFramework": "6.5.1",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.3.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0"
         },
         "runtime": {
           "GadgetsOnline.dll": {}
+        }
+      },
+      "AWSSDK.Core/4.0.3.3": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.3.3"
+          }
+        }
+      },
+      "AWSSDK.SecretsManager/4.0.3.1": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.3.3"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SecretsManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.3.1"
+          }
         }
       },
       "EntityFramework/6.5.1": {
@@ -316,6 +336,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/4.0.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YQv10JuxnciWh0QwnkarSbge4gXQV1qTURf5jkBjNUH/3jYS9QrbxopA4TK1qdjfOfP37tqiJkLSrRRNqX81aw==",
+      "path": "awssdk.core/4.0.3.3",
+      "hashPath": "awssdk.core.4.0.3.3.nupkg.sha512"
+    },
+    "AWSSDK.SecretsManager/4.0.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y2Le4tfqHj/xFssW4N87LnnIpeBezsbHou8NxupylzFKOaz3KdLLupj4jcb4WQ+wCD1UHUidf6uTKIQYYfFWyA==",
+      "path": "awssdk.secretsmanager/4.0.3.1",
+      "hashPath": "awssdk.secretsmanager.4.0.3.1.nupkg.sha512"
     },
     "EntityFramework/6.5.1": {
       "type": "package",
