@@ -7,7 +7,7 @@ namespace GadgetsOnline.Models
     public class GadgetsOnlineEntities : DbContext
     {
         // Default constructor using connection string name from config
-        public GadgetsOnlineEntities() : base("name=GadgetsOnlineEntities")
+        public GadgetsOnlineEntities() : base("name=DefaultConnection")
         {
             // Enable lazy loading by default (alternative to AutoInclude)
             this.Configuration.LazyLoadingEnabled = true;

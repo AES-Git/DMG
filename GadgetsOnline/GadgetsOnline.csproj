@@ -6,6 +6,7 @@
     <Platforms>AnyCPU;ARM64</Platforms>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="AWSSDK.SecretsManager" Version="4.0.3.1" />
     <PackageReference Include="EntityFramework" Version="6.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.3.0" />
   </ItemGroup>

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: DMS Service Roles for Database Migration (All roles already exist)
+Resources:
+  PlaceholderResource:
+    Type: AWS::CloudFormation::WaitConditionHandle
+Outputs:
+  Message:
+    Description: Status message
+    Value: All DMS roles already exist in this account
